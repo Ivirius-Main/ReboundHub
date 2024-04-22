@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReboundHub", "ReboundHub\ReboundHub.csproj", "{026704DE-F753-4712-9690-EC68C5B5D2E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7BC9030-DC25-4470-AB5C-45F3AC9EBA3F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Debug|ARM64.Build.0 = Debug|ARM64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Debug|x64.ActiveCfg = Debug|x64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Debug|x64.Build.0 = Debug|x64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Debug|x64.Deploy.0 = Debug|x64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Debug|x86.ActiveCfg = Debug|x86
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Debug|x86.Build.0 = Debug|x86
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Debug|x86.Deploy.0 = Debug|x86
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Release|ARM64.ActiveCfg = Release|ARM64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Release|ARM64.Build.0 = Release|ARM64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Release|ARM64.Deploy.0 = Release|ARM64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Release|x64.ActiveCfg = Release|x64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Release|x64.Build.0 = Release|x64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Release|x64.Deploy.0 = Release|x64
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Release|x86.ActiveCfg = Release|x86
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Release|x86.Build.0 = Release|x86
+		{026704DE-F753-4712-9690-EC68C5B5D2E8}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F46D9F10-D75A-4C1E-99F0-14EE79D20EDE}
+	EndGlobalSection
+EndGlobal
