@@ -17,7 +17,7 @@
             <views:BreadcrumbBarUserControl SingleItem="{x:Bind BreadCrumbBarItemText, Mode=OneWay}" />
 
             <wuc:SettingsCard
-                Description="Select the theme that suits your mood and preference. You can choose from dark, light, or system themes."
+                Description="Select the theme that suits your mood and preference"
                 Header="App theme"
                 HeaderIcon="{wuc:BitmapIcon Source=Assets/Fluent/theme.png}">
                 <ComboBox x:Name="CmbTheme" SelectionChanged="CmbTheme_SelectionChanged">
@@ -27,7 +27,7 @@
                 </ComboBox>
             </wuc:SettingsCard>
             <wuc:SettingsCard
-                Description="Change the appearance of the backdrop material behind your app. You can choose from mica, acrylic, or transparent options."
+                Description="Change the appearance of the backdrop material behind your app"
                 Header="Material"
                 HeaderIcon="{wuc:BitmapIcon Source=Assets/Fluent/backdrop.png}">
                 <ComboBox x:Name="CmbBackdrop" SelectionChanged="CmbBackdrop_SelectionChanged">
