@@ -1,0 +1,23 @@
+﻿{
+  "Groups": [
+    {
+      "UniqueId": "ReboundApps",
+      "Title": "ReboundApps",
+      "ImagePath": "ms-appx:///Assets/icon.png",
+      "ImageIconPath": "ms-appx:///Assets/icon.png",
+      "IsSpecialSection": false,
+      "ShowItemsWithoutGroup": true,
+      "IsExpanded": false,
+      "Items": [
+        {
+          "UniqueId": "ReboundApps.Views.HomeLandingPage",
+          "Title": "ReboundApps",
+          "Subtitle": "ReboundApps",
+          "ImagePath": "ms-appx:///Assets/icon.png",
+          "ImageIconPath": "ms-appx:///Assets/icon.png",
+          "HideItem": true
+        }
+      ]
+    }
+  ]
+}
