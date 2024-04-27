@@ -33,11 +33,15 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Content Remove="Assets\icon.png" />
     <Content Remove="Assets\LandingPageIcons\ChildAppWindow.png" />
     <Content Remove="Assets\LandingPageIcons\CrimsonUIGlyph.png" />
     <Content Remove="Assets\LandingPageIcons\CrimsonUIWallpaper.png" />
     <Content Remove="Assets\LandingPageIcons\DialogWindow.png" />
     <Content Remove="Assets\LandingPageIcons\Ivirius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Assets\icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
