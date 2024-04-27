@@ -33,6 +33,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Content Remove="Assets\LandingPageIcons\ChildAppWindow.png" />
+    <Content Remove="Assets\LandingPageIcons\CrimsonUIGlyph.png" />
+    <Content Remove="Assets\LandingPageIcons\CrimsonUIWallpaper.png" />
+    <Content Remove="Assets\LandingPageIcons\DialogWindow.png" />
+    <Content Remove="Assets\LandingPageIcons\Ivirius.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Manifest Include="$(ApplicationManifest)" />
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.3233" />
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.5.240404000" />

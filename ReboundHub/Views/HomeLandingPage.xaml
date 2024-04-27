@@ -7,11 +7,45 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:wuc="using:WinUICommunity"
     mc:Ignorable="d">
-    <wuc:AllLandingPage
+    <wuc:MainLandingPage
         x:Name="allLandingPage"
         HeaderImage="{ThemeResource HeaderCover}"
         HeaderOverlayImage="{ThemeResource HeaderCover}"
         HeaderText="{x:Bind AppInfo}"
-        OnItemClick="allLandingPage_OnItemClick" />
+        OnItemClick="allLandingPage_OnItemClick" >
+        <wuc:MainLandingPage.HeaderContent>
+            <StackPanel Orientation="Horizontal"
+                                    Spacing="10">
+                <wuc:HeaderTile Title="Documentation Center"
+                                            Description="Learn how to work with controls and styles."
+                                            Link="https://ivirius.vercel.app/documentations">
+                    <wuc:HeaderTile.Source>
+                        <Image Source="/Assets/HomeHeaderTiles/Header-WinUICommunityGallery.png" />
+                    </wuc:HeaderTile.Source>
+                </wuc:HeaderTile>
+                <wuc:HeaderTile Title="CrimsonUI"
+                                            Description="Shiny, glowing UI elements."
+                                            Link="https://ivirius.vercel.app/crimsonui">
+                    <wuc:HeaderTile.Source>
+                        <Image Source="/Assets/LandingPageIcons/CrimsonUIGlyph.png" />
+                    </wuc:HeaderTile.Source>
+                </wuc:HeaderTile>
+                <wuc:HeaderTile Title="Rebound Apps"
+                                            Description="Go to the Rebound App Store, where you can install the Rebound apps! (if it is installed)"
+                                            Link="https://github.com/Ivirius-Main/ReboundApps">
+                    <wuc:HeaderTile.Source>
+                        <Image Source="/Assets/HomeHeaderTiles/icon.png" />
+                    </wuc:HeaderTile.Source>
+                </wuc:HeaderTile>
+                <wuc:HeaderTile Title="Ivirius.UI"
+                                            Description="Extend the capabilities of UWP/WinUI3 with the Ivirius.UI toolkit"
+                                            Link="https://ivirius.vercel.app/ivirius-ui">
+                    <wuc:HeaderTile.Source>
+                        <Image Source="/Assets/LandingPageIcons/Ivirius.png" />
+                    </wuc:HeaderTile.Source>
+                </wuc:HeaderTile>
+            </StackPanel>
+        </wuc:MainLandingPage.HeaderContent>
+</wuc:MainLandingPage>
 </Page>
 
