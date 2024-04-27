@@ -19,7 +19,7 @@
             <wuc:SettingsCard Header="{x:Bind CurrentVersion, Mode=OneWay}" HeaderIcon="{wuc:BitmapIcon Source=Assets/Fluent/update.png}">
                 <wuc:SettingsCard.Description>
                     <StackPanel Orientation="Horizontal" Spacing="5">
-                        <TextBlock Style="{StaticResource SecondaryTextStyle}" Text="Last Update Check" />
+                        <TextBlock Style="{StaticResource SecondaryTextStyle}" Text="Last check for update:" />
                         <TextBlock
                             x:Name="TxtLastUpdateCheck"
                             FlowDirection="LeftToRight"
@@ -32,7 +32,7 @@
                         x:Name="BtnCheckUpdate"
                         MinWidth="{StaticResource SettingActionControlMinWidth}"
                         Click="{x:Bind CheckForUpdateAsync}"
-                        Content="Check for New Version"
+                        Content="Check for updates"
                         Style="{ThemeResource AccentButtonStyle}" />
                 </StackPanel>
             </wuc:SettingsCard>
@@ -43,7 +43,7 @@
                         x:Name="BtnReleaseNote"
                         Padding="5,0"
                         Click="{x:Bind GetReleaseNotesAsync}"
-                        Content="Release Note" />
+                        Content="Release notes" />
                 </wuc:SettingsCard.Description>
                 <StackPanel
                     VerticalAlignment="Center"
@@ -53,7 +53,7 @@
                         x:Name="BtnDownloadUpdate"
                         MinWidth="{StaticResource SettingActionControlMinWidth}"
                         Click="{x:Bind GoToUpdateAsync}"
-                        Content="Download Update" />
+                        Content="Download update" />
                 </StackPanel>
             </wuc:SettingsCard>
         </StackPanel>
