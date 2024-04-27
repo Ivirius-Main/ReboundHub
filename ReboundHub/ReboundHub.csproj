@@ -15,7 +15,7 @@
     <Version>1.0.0</Version>
     <ImplicitUsings>true</ImplicitUsings>
     <LangVersion>Latest</LangVersion>
-    <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
     <WindowsPackageType>None</WindowsPackageType>
@@ -38,6 +38,9 @@
     <Content Remove="Assets\LandingPageIcons\CrimsonUIWallpaper.png" />
     <Content Remove="Assets\LandingPageIcons\DialogWindow.png" />
     <Content Remove="Assets\LandingPageIcons\Ivirius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="$(ApplicationManifest)" />
