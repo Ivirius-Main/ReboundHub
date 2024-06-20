@@ -5,14 +5,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:wuc="using:WinUICommunity"
+    xmlns:wuc="using:WinUICommunity" xmlns:controls="using:Ivirius.UI.Controls"
     mc:Ignorable="d">
     <wuc:MainLandingPage
         x:Name="allLandingPage"
         HeaderImage="{ThemeResource HeaderCover}"
         HeaderOverlayImage="{ThemeResource HeaderCover}"
         HeaderText="{x:Bind AppInfo}"
-        OnItemClick="allLandingPage_OnItemClick" >
+        OnItemClick="allLandingPage_OnItemClick"
+        FooterMargin="100">
         <wuc:MainLandingPage.HeaderContent>
             <StackPanel Orientation="Horizontal"
                                     Spacing="10">
@@ -46,6 +47,22 @@
                 </wuc:HeaderTile>
             </StackPanel>
         </wuc:MainLandingPage.HeaderContent>
+        <!--<wuc:MainLandingPage.FooterContent>
+            <Grid wuc:UniformGrid.AutoLayout="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <controls:CommandLink Grid.Column="0" Grid.Row="0" Title="Card" Description="Go to Card sample page"/>
+                <controls:CommandLink Grid.Column="0" Grid.Row="1" Title="CommandLink" Description="Go to CommandLink sample page"/>
+                <controls:CommandLink Grid.Column="1" Grid.Row="0" Title="ChatBubble" Description="Go to ChatBubble sample page"/>
+                <controls:CommandLink Grid.Column="1" Grid.Row="1" Title="GroupBox" Description="Go to GroupBox sample page"/>
+            </Grid>
+        </wuc:MainLandingPage.FooterContent>-->
 </wuc:MainLandingPage>
 </Page>
 

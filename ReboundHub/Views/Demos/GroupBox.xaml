@@ -10,7 +10,7 @@
 
     <ScrollViewer>
         <Grid>
-            <TextBlock TextWrapping="Wrap" Text="Card" Margin="25,25,0,0" Style="{ThemeResource TitleTextBlockStyle}" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <TextBlock TextWrapping="Wrap" Text="GroupBox" Margin="25,25,0,0" Style="{ThemeResource TitleTextBlockStyle}" VerticalAlignment="Top" HorizontalAlignment="Left"/>
             <TextBlock TextWrapping="Wrap" Margin="25,75,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Text="The GroupBox control provides elevation and emphasis to custom content."/>
 
             <StackPanel Margin="25,115,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Spacing="5" Orientation="Horizontal">
