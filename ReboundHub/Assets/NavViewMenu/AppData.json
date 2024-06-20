@@ -2,7 +2,7 @@
   "Groups": [
     {
       "UniqueId": "ReboundHub",
-      "Title": "ReboundHub",
+      "Title": "Home",
       "ImagePath": "ms-appx:///Assets/icon.png",
       "ImageIconPath": "ms-appx:///Assets/icon.png",
       "IsSpecialSection": false,
@@ -11,12 +11,23 @@
       "Items": [
         {
           "UniqueId": "ReboundHub.Views.HomeLandingPage",
-          "Title": "ReboundHub",
-          "Subtitle": "ReboundHub",
+          "Title": "Home",
+          "Subtitle": "Home",
           "ImagePath": "ms-appx:///Assets/icon.png",
           "ImageIconPath": "ms-appx:///Assets/icon.png",
           "HideItem": true
-        },
+        }
+      ]
+    },
+    {
+      "UniqueId": "ReboundHubDemos",
+      "Title": "Ivirius.UI.Controls demos",
+      "ImagePath": "ms-appx:///Assets/LandingPageIcons/Ivirius.png",
+      "ImageIconPath": "ms-appx:///Assets/LandingPageIcons/Ivirius.png",
+      "IsSpecialSection": false,
+      "ShowItemsWithoutGroup": false,
+      "IsExpanded": false,
+      "Items": [
         {
           "UniqueId": "ReboundHub.Views.Demos.Card",
           "Title": "Card",
