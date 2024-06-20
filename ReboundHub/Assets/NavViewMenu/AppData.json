@@ -35,6 +35,30 @@
           "ImagePath": "ms-appx:///Assets/icon.png",
           "ImageIconPath": "ms-appx:///Assets/icon.png",
           "HideItem": true
+        },
+        {
+          "UniqueId": "ReboundHub.Views.Demos.CommandLink",
+          "Title": "CommandLink",
+          "Subtitle": "CommandLink",
+          "ImagePath": "ms-appx:///Assets/icon.png",
+          "ImageIconPath": "ms-appx:///Assets/icon.png",
+          "HideItem": true
+        },
+        {
+          "UniqueId": "ReboundHub.Views.Demos.ChatBubble",
+          "Title": "ChatBubble",
+          "Subtitle": "ChatBubble",
+          "ImagePath": "ms-appx:///Assets/icon.png",
+          "ImageIconPath": "ms-appx:///Assets/icon.png",
+          "HideItem": true
+        },
+        {
+          "UniqueId": "ReboundHub.Views.Demos.GroupBox",
+          "Title": "GroupBox",
+          "Subtitle": "GroupBox",
+          "ImagePath": "ms-appx:///Assets/icon.png",
+          "ImageIconPath": "ms-appx:///Assets/icon.png",
+          "HideItem": true
         }
       ]
     }

@@ -44,6 +44,9 @@
   <ItemGroup>
     <None Remove="Assets\icon.ico" />
     <None Remove="Views\Demos\Card.xaml" />
+    <None Remove="Views\Demos\ChatBubble.xaml" />
+    <None Remove="Views\Demos\CommandLink.xaml" />
+    <None Remove="Views\Demos\GroupBox.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
@@ -73,6 +76,21 @@
   -->
   <ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <ProjectCapability Include="Msix" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\Demos\GroupBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\Demos\ChatBubble.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\Demos\CommandLink.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\Demos\Card.xaml">
