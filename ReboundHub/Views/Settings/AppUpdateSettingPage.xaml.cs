@@ -36,8 +36,8 @@ public sealed partial class AppUpdateSettingPage : Page
             try
             {
                 //Todo: Fix UserName and Repo
-                string username = "";
-                string repo = "";
+                string username = "Ivirius-Main";
+                string repo = "ReboundHub";
                 TxtLastUpdateCheck.Text = DateTime.Now.ToShortDateString();
                 Settings.LastUpdateCheck = DateTime.Now.ToShortDateString();
                 var update = await UpdateHelper.CheckUpdateAsync(username, repo, new Version(App.Current.AppVersion));
@@ -46,11 +46,11 @@ public sealed partial class AppUpdateSettingPage : Page
                     BtnReleaseNote.Visibility = Visibility.Visible;
                     BtnDownloadUpdate.Visibility = Visibility.Visible;
                     ChangeLog = update.Changelog;
-                    StatusCard.Header = $"We found a new version {update.TagName} Created at {update.CreatedAt} and Published at {update.PublishedAt}";
+                    StatusCard.Header = $"We found a new version {update.TagName}, created at {update.CreatedAt} and published at {update.PublishedAt}";
                 }
                 else
                 {
-                    StatusCard.Header = "You are using latest version";
+                    StatusCard.Header = "You are using the latest version";
                 }
             }
             catch (Exception ex)
@@ -62,7 +62,7 @@ public sealed partial class AppUpdateSettingPage : Page
         }
         else
         {
-            StatusCard.Header = "Error Connection";
+            StatusCard.Header = "Error connecting to GitHub to check for updates. Please try again later.";
         }
         PrgLoading.IsActive = false;
         BtnCheckUpdate.IsEnabled = true;
