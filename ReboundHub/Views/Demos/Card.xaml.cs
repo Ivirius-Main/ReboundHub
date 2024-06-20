@@ -29,11 +29,33 @@ public sealed partial class Card : Page
 
     private void Button_Click(object sender, RoutedEventArgs e)
     {
-
+        if (ItemsViewer.RequestedTheme == ElementTheme.Dark) ItemsViewer.RequestedTheme = ElementTheme.Light;
+        else ItemsViewer.RequestedTheme = ElementTheme.Dark;
     }
 
     private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
     {
+        // The URI to launch
+        string uriToLaunch = @"https://github.com/Ivirius-Main/ReboundHub/blob/main/ReboundHub/Views/Demos/Card.xaml";
 
+        // Create a Uri object from a URI string 
+        var uri = new Uri(uriToLaunch);
+
+        // Launch the URI
+        async void DefaultLaunch()
+        {
+            // Launch the URI
+            var success = await Windows.System.Launcher.LaunchUriAsync(uri);
+
+            if (success)
+            {
+                // URI launched
+            }
+            else
+            {
+                // URI launch failed
+            }
+        }
+        DefaultLaunch();
     }
 }
