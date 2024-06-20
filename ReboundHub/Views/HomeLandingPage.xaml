@@ -30,8 +30,8 @@
                         <Image Source="/Assets/LandingPageIcons/CrimsonUIGlyph.png" />
                     </wuc:HeaderTile.Source>
                 </wuc:HeaderTile>
-                <wuc:HeaderTile Title="Rebound Apps"
-                                            Description="Go to the Rebound App Store, where you can install the Rebound apps! (if it is installed)"
+                <wuc:HeaderTile Title="ReboundApps"
+                                            Description="Go to ReboundApps, where you can install the Rebound apps! (if it is installed)"
                                             Link="https://github.com/Ivirius-Main/ReboundApps">
                     <wuc:HeaderTile.Source>
                         <Image Source="/Assets/HomeHeaderTiles/icon.png" />
